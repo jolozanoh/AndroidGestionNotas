@@ -7,6 +7,6 @@
     <string name="tus_asignaturas">Tus Asignaturas</string>
     <string name="intruduce_datos_asignatura">Introduce Datos Asignatura</string>
     <string name="notas">Nota:</string>
-    <string name="guardar">GUARDAR</string>
+    <string name="guardar">SAVE</string>
     <string name="listar_asignaturas">Listar Asignaturas</string>
 </resources>
