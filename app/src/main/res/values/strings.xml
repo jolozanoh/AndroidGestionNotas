@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nombre_asignatura">Asignatura:</string>
+    <string name="app_name">Mis Notas</string>
+    <string name="acciones">Acciones</string>
+    <string name="anadir_mas_asignaturas">Introducir mas Asignaturas</string>
+    <string name="tus_asignaturas">Tus Asignaturas</string>
+    <string name="intruduce_datos_asignatura">Introduce Datos Asignatura</string>
+    <string name="notas">Nota:</string>
+    <string name="guardar">GUARDAR</string>
+    <string name="listar_asignaturas">Listar Asignaturas</string>
+</resources>

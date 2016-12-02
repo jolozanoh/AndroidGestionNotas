@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/intruduce_datos_asignatura"
+        android:textColor="#0f0"
+        android:textSize="11pt" />
+
+    <TableLayout
+        android:id="@+id/Tabla01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nombre_asignatura" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/EditarTextoAsignatura"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords" >
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/notas" >
+            </TextView>
+
+            <AutoCompleteTextView
+                android:id="@+id/EditarTextoNota"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number">
+            </AutoCompleteTextView>
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/BotonGuardar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/guardar" >
+    </Button>
+
+    <Button
+        android:id="@+id/BotonListarAsignaturas"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/listar_asignaturas"
+        android:textColor="#0f0"
+        android:textSize="12pt" >
+    </Button>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TablaListaAsignaturas"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:stretchColumns="*" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tus_asignaturas"
+        android:textColor="#0f0"
+        android:textSize="11pt" />
+
+    <TableRow
+        android:id="@+id/TablaFila01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre_asignatura"
+            android:textColor="#f00" >
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notas"
+            android:textColor="#f00" >
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/acciones"
+            android:textColor="#f00" >
+        </TextView>
+    </TableRow>
+
+    <Button
+        android:id="@+id/BotonMasAsignaturas"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/anadir_mas_asignaturas" />
+
+</TableLayout>
